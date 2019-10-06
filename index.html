@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alexander Bihm - To Do List</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h2>To Do List (using Local Storage)</h2>
-    <form>
-        <span id="todo-item">To Do Item: <input id="to-do" type="text"><input id="add-to-do" value="Add Item" type="submit"></span>
-    </form>
-    <br>
-    <hr>
-    <br>
-    <div id="to-do-list"></div>
-    <script type="text/javascript" src="assets/app.js"></script>
+    <div id="body-wrapper">
+        <section id="top-wrapper">
+            <h2>To Do List</h2>
+            <form>
+                <span id="todo-item"><input id="to-do" type="text" placeholder="Enter task here"><br>
+                    <input id="add-to-do" value="Add Item" type="submit">
+                    <input id="clearAll" value="Clear All" type="submit"></span>
+            </form>
+
+            <br>
+
+            <hr>
+        </section>
+        <br>
+        <section id='bottom-wrapper'>
+            <div id="to-do-list"></div>
+            <script type="text/javascript" src="assets/app.js"></script>
+    </div>
+    </section>
 </body>
+
 </html>

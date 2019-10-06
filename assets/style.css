@@ -1,0 +1,61 @@
+body {
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+#body-wrapper {
+    max-width: 400px;
+}
+
+#top-wrapper {
+background-color: lightblue;
+text-align: center;
+padding-top: 5px;
+color: white;
+}
+#top-wrapper input {
+    border-radius: 6px;
+}
+#to-do {
+    height: 1.5em;
+    margin: .5em;
+}
+#add-to-do {
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid blue;
+}
+#clearAll {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid red;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+    padding: 3px 0;
+
+}
+button {
+    color: white;
+    padding: 1 px;
+    margin: 2px;
+background-color: lightskyblue;
+
+border-radius: 50%;
+border: 1px solid lightskyblue;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+p:nth-child(odd) {
+    background: #ffcccc
+  }
+  p:nth-child(even) {
+    background: #ffe6e6;
+  }
